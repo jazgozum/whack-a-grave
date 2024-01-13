@@ -73,7 +73,6 @@ start.addEventListener('click', startTime)
 retry.addEventListener('click', goMenu)
 holes.forEach(hole => hole.addEventListener('mousedown', up));
 holes.forEach(hole => hole.addEventListener('touchstart', up));
-nameInput.addEventListener('keyup', enterName);
 velocityLevelDOM.addEventListener('click', changeVelocityLevel)
 timeLevelDOM.addEventListener('click', changeTimeLevel)
 volumeLevelDOM.addEventListener('click', changeVolumeLevel)
